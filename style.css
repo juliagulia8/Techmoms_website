@@ -1,5 +1,5 @@
 body {
-    background-color: #353233;
+    background-color: #a06c7c8a;
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
@@ -10,25 +10,29 @@ body {
 header {
     background-color: rgb(144, 134, 144);
     border: 10px white solid;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 217, 255));
-    font-size: larger;
-    font-style: oblique;
+    background-image: linear-gradient(to right, rgba(225, 208, 208, 0), rgb(89, 164, 177));
+    font-size: 25px;
+    font-style: handlee;
+    font-weight: bolder;
 }
 .background-image {
     background-image: url("images/music-background.jpg");
 }
 
-.image-title {
-    color:rgb(49, 49, 114);
-    font-size: 50px;
-    background-color: bisque;
+figcaption {
+    color:rgb(14, 14, 18);
+    font-size: 40px;
+    background-color: rgb(252, 248, 244);
+    font-style: handlee;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 img {
     width: 50%;
-    /* border-radius: 50%; */
-    border: 10px solid #ffffff;
-    /* border-radius: 15px; */
+    border-radius: 40%; 
+    border: 6px solid #635f5f;
+    border-radius: 5ch; 
     margin: .5em;
 }
 
@@ -46,7 +50,7 @@ section.figure p {
     align-items: center;
 }
 
-footer {
-    
+footer i {
+    font-size: 40px;
 }
 
