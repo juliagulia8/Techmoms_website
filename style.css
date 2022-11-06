@@ -13,7 +13,9 @@ header {
     font-size: 25px;
     font-style: handlee;
     font-weight: bolder;
-    image-float: right; 
+}
+header.image {
+    float: right;
 }
 .background-image {
     background-image: url("images/music-background.jpg");
