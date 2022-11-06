@@ -14,7 +14,7 @@ header {
     font-style: handlee;
     font-weight: bolder;
 }
-header.image {
+.header-image {
     float: right;
 }
 .background-image {
